@@ -7,3 +7,7 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+greetings = ['Hello React', 'Hello Ruby on Rails', 'Hello Full-stack', 'Hello Microverse', 'Happy coding']
+greetings.each do |msg|
+    Message.create(greet: msg)
+end
